@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98aabdac-2c06-4c1f-937b-968eb24277c6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="98aabdac-2c06-4c1f-937b-968eb24277c6" name="Default" comment="" />
     <ignored path="serializer-benchmark.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +28,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="77" selection-start="828" selection-end="828" vertical-scroll-proportion="0.4753521">
+            <state line="18" column="21" selection-start="772" selection-end="772" vertical-scroll-proportion="0.4753521">
               <folding />
             </state>
           </provider>
@@ -251,7 +247,11 @@
       <created>1356807575931</created>
       <updated>1356807575931</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Initial benchmark code and results.">
+      <created>1356808226439</created>
+      <updated>1356808226439</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -276,10 +276,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="22" width="1247" height="989" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29953918" sideWeight="0.8900916" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29953918" sideWeight="0.8900916" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972524" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2023314" sideWeight="0.32718894" order="1" side_tool="true" content_ui="tabs" />
@@ -333,7 +333,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial benchmark code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial benchmark code and results." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -351,6 +351,7 @@
     <MESSAGE value="Updated readme and project files." />
     <MESSAGE value="Updated project files." />
     <MESSAGE value="Initial benchmark code." />
+    <MESSAGE value="Initial benchmark code and results." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -397,7 +398,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="77" selection-start="828" selection-end="828" vertical-scroll-proportion="0.4753521">
+        <state line="18" column="21" selection-start="772" selection-end="772" vertical-scroll-proportion="0.4753521">
           <folding />
         </state>
       </provider>
