@@ -1,5 +1,7 @@
 """Source data parser for benchmarks."""
 
+from __future__ import absolute_import, division, print_function, unicode_literals
+
 import gzip
 import os
 from os.path import join as j
@@ -19,7 +21,7 @@ def objects(filename):
                     errorlines.append(i)
         if errorlines:
             if len(errorlines) > 1 or errorlines[0] != i:
-                print 'Errors on lines %s of %d' % (errorlines, i)
+                print('Errors on lines {0} of {1}'.format(errorlines, i), file=sys.stderr)
 
 def parsefiles(datadir):
     for installid in os.listdir(datadir):
@@ -29,3 +31,4 @@ def parsefiles(datadir):
                 for filename in os.listdir(j(datadir, subdir)):
                     fullfilename = j(datadir, subdir, filename)
                     yield subdir, filename.replace('.gz', ''), list(objects(fullfilename))
+                return

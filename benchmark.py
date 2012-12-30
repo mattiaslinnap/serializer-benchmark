@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+from __future__ import absolute_import, division, print_function, unicode_literals
 
 from collections import defaultdict
 import gzip
@@ -37,7 +38,7 @@ class Packer(object):
 class JsonPacker(Packer):
     def pack(self, obj):
         line = ujson.dumps(obj)
-        return '\0' + struct.pack('>i', len(line)) + line + '\n'
+        return b'\0' + struct.pack(b'>i', len(line)) + line + b'\n'
     def __str__(self):
         return 'json'
 
@@ -78,10 +79,10 @@ def main(datadir):
             packer.write(datadir, subdir, filename, objects)
             times[str(packer)] += (time.time() - start)
         if i % 100 == 0:
-            print >> sys.stderr, '%d processed' % i
+            print('{0} processed'.format(i), file=sys.stderr)
 
     for key, val in times.iteritems():
-        print '%s: %.3f seconds' % (key, val)
+        print('{0}: {1} seconds'.format(key, val))
 
 
 if __name__ == '__main__':
